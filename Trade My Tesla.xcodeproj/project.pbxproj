@@ -12,6 +12,7 @@
 		39205ABB1F8B3EFC0053264C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39205AB91F8B3EFC0053264C /* Main.storyboard */; };
 		39205ABD1F8B3EFC0053264C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39205ABC1F8B3EFC0053264C /* Assets.xcassets */; };
 		39205AC01F8B3EFC0053264C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39205ABE1F8B3EFC0053264C /* LaunchScreen.storyboard */; };
+		39205AC81F8B3FE20053264C /* Cars.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 39205AC71F8B3FE20053264C /* Cars.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		39205ABC1F8B3EFC0053264C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39205ABF1F8B3EFC0053264C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39205AC11F8B3EFC0053264C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39205AC71F8B3FE20053264C /* Cars.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Cars.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		39205AB41F8B3EFC0053264C /* Trade My Tesla */ = {
 			isa = PBXGroup;
 			children = (
+				39205AC71F8B3FE20053264C /* Cars.mlmodel */,
 				39205AB51F8B3EFC0053264C /* AppDelegate.swift */,
 				39205AB71F8B3EFC0053264C /* ViewController.swift */,
 				39205AB91F8B3EFC0053264C /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				39205AB81F8B3EFC0053264C /* ViewController.swift in Sources */,
 				39205AB61F8B3EFC0053264C /* AppDelegate.swift in Sources */,
+				39205AC81F8B3FE20053264C /* Cars.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +282,7 @@
 				DEVELOPMENT_TEAM = BMS8CT22KN;
 				INFOPLIST_FILE = "Trade My Tesla/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.6dof.Trade-My-Tesla";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.6dof.trade-my-tesla";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +297,7 @@
 				DEVELOPMENT_TEAM = BMS8CT22KN;
 				INFOPLIST_FILE = "Trade My Tesla/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.6dof.Trade-My-Tesla";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.6dof.trade-my-tesla";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
