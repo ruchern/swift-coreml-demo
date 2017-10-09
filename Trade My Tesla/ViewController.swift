@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Trade My Tesla
-//
-//  Created by Ru Chern Chong on 9/10/17.
-//  Copyright © 2017 6DoF. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
