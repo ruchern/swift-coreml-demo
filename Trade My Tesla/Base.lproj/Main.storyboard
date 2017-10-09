@@ -23,7 +23,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="kYj-ny-WX3">
                                 <rect key="frame" x="16" y="36" width="288" height="420"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="kYj-ny-WX3" secondAttribute="height" multiplier="24:35" id="eAw-rw-Npi"/>
+                                    <constraint firstAttribute="width" secondItem="kYj-ny-WX3" secondAttribute="height" multiplier="24:35" id="EdW-Gp-OQb"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This app is not endorsed by Tesla, and any price is entirely fictional." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PmH-sV-y4b">
@@ -33,7 +33,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjN-Z4-LRP">
-                                <rect key="frame" x="77" y="511" width="167" height="41"/>
+                                <rect key="frame" x="77" y="507" width="167" height="41"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <state key="normal" title="Proceed">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -42,16 +42,15 @@
                         </subviews>
                         <color key="backgroundColor" name="TeslaRed"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kYj-ny-WX3" secondAttribute="trailing" constant="16" id="LiH-zw-A0d"/>
-                            <constraint firstAttribute="bottom" secondItem="HjN-Z4-LRP" secondAttribute="bottom" constant="16" id="SZ0-nD-Naf"/>
-                            <constraint firstItem="PmH-sV-y4b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="UsR-84-hS0"/>
-                            <constraint firstItem="kYj-ny-WX3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bxs-oB-Rfe"/>
-                            <constraint firstItem="PmH-sV-y4b" firstAttribute="top" secondItem="kYj-ny-WX3" secondAttribute="bottom" constant="16" id="f02-r9-Ejo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PmH-sV-y4b" secondAttribute="trailing" constant="16" id="kXw-rt-OtD"/>
-                            <constraint firstItem="kYj-ny-WX3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="mux-Zk-BNi"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HjN-Z4-LRP" secondAttribute="trailing" constant="76" id="nbA-hp-DjW"/>
-                            <constraint firstItem="HjN-Z4-LRP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="wew-TV-neR"/>
-                            <constraint firstItem="PmH-sV-y4b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xlh-0j-eHZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HjN-Z4-LRP" secondAttribute="trailing" constant="76" id="6je-BF-rcl"/>
+                            <constraint firstItem="HjN-Z4-LRP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="7r7-qF-hcp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PmH-sV-y4b" secondAttribute="trailing" constant="16" id="9hy-Li-nfD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kYj-ny-WX3" secondAttribute="trailing" constant="16" id="SR6-fH-tLP"/>
+                            <constraint firstItem="PmH-sV-y4b" firstAttribute="top" secondItem="kYj-ny-WX3" secondAttribute="bottom" constant="16" id="TPg-1Z-Ngq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HjN-Z4-LRP" secondAttribute="bottom" constant="20" id="Tzt-Ho-Mlm"/>
+                            <constraint firstItem="PmH-sV-y4b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Y3b-rt-Nuc"/>
+                            <constraint firstItem="kYj-ny-WX3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tqN-yl-Vrs"/>
+                            <constraint firstItem="kYj-ny-WX3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="zwH-la-WOj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
