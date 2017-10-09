@@ -12,7 +12,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        stackView.setCustomSpacing(30, after: model)
+        stackView.setCustomSpacing(30, after: upgrades)
+        stackView.setCustomSpacing(30, after: mileage)
+        stackView.setCustomSpacing(60, after: condition)
     }
     
     override func didReceiveMemoryWarning() {
